@@ -1,11 +1,9 @@
 <template>
 	<div class="bg-white">
-		<!-- Header -->
-		<Navbar />
 
 		<!-- Section Tentang Kami -->
 		<section
-			class="relative h-64 sm:h-96 md:h-[500px] lg:h-[700px] overflow-hidden">
+			class="relative h-64 sm:h-96 md:h-[500px] lg:h-[800px] overflow-hidden">
 			<!-- Background Image -->
 			<div class="absolute inset-0">
 				<img
