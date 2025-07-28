@@ -107,7 +107,7 @@
 						</div>
 
 						<!-- Gambar -->
-						<div class="h-64 overflow-hidden">
+						<div class="h-72 overflow-hidden">
 							<img
 								:src="`page${index + 1}.png`"
 								alt="Treatment"
