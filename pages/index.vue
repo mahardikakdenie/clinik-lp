@@ -64,7 +64,7 @@
 				<div
 					class="bg-white rounded-2xl shadow-xl p-8 md:p-10 border border-gray-100 hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.01]">
 					<p
-						class="text-gray-700 text-lg md:text-xl leading-relaxed font-medium animate-fade-in">
+						class="text-[#1abaa6] text-lg md:text-xl leading-relaxed font-medium animate-fade-in">
 						Maida Skin Clinic percaya kalau setiap orang punya
 						kebutuhan kulit yang berbeda, makanya semua perawatan
 						kulit disesuaikan langsung sama kondisi kulit kamu.
@@ -91,7 +91,7 @@
 						class="text-3xl font-bold text-[#1abaa6] mb-4 animate-fade-in">
 						Layanan Kami
 					</h2>
-					<p class="text-gray-600 max-w-xl mx-auto text-sm">
+					<p class="text-[#1abaa6] max-w-xl mx-auto text-sm">
 						Temukan perawatan yang sesuai dengan kebutuhan kulitmu
 					</p>
 				</div>
@@ -118,7 +118,7 @@
 
 						<!-- Deskripsi (opsional) -->
 						<div class="p-5 bg-white">
-							<p class="text-gray-600 text-sm mt-1">
+							<p class="text-[#1abaa6] text-sm mt-1">
 								{{
 									[
 										'Treatment Maida Skin Clinic menawarkan solusi perawatan kulit personal dengan teknologi modern, dirancang untuk mengatasi masalah kulit dan mengembalikan keremajaanmu',
