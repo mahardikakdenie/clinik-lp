@@ -118,11 +118,14 @@
 
 						<!-- Deskripsi (opsional) -->
 						<div class="p-5 bg-white">
-							<h3 class="text-lg font-semibold text-gray-800">
-								Perawatan Wajah
-							</h3>
 							<p class="text-gray-600 text-sm mt-1">
-								Cocok untuk kulit kering & sensitif
+								{{
+									[
+										'Treatment Maida Skin Clinic menawarkan solusi perawatan kulit personal dengan teknologi modern, dirancang untuk mengatasi masalah kulit dan mengembalikan keremajaanmu',
+										'Rangkaian skincare Maida Skin Clinic diformulasikan dengan bahan bahan alami pilihan untuk menutrisi dan menjaga kesehatan kulitmu dari dalam, memancarkan kilauan alami setiap hari',
+										'Lengkapi tampilan cantikmu dengan koleksi makeup Maida Skin Clinic yang ringan, aman dan diformulasikan untuk menonjolkan kecantikan naturalmu tanpa menyumbat pori pori',
+									][index]
+								}}
 							</p>
 						</div>
 					</div>
