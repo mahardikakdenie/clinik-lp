@@ -31,6 +31,27 @@
 					</h1>
 				</div>
 			</div>
+
+            <div v-if="$route.fullPath === '/threatment-product'" class="absolute z-10 flex items-center justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60">
+                <span class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl rounded-2xl py-2">
+                    Alami
+                </span>
+            </div>
+            <div v-if="$route.fullPath === '/threatment-product'" class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 mt-5">
+                <span class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl rounded-2xl py-2">
+                    Mulus
+                </span>
+            </div>
+            <div v-if="$route.fullPath === '/threatment-product'" class="absolute z-10 flex items-center justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60">
+                <span class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl rounded-2xl py-2">
+                    Alami
+                </span>
+            </div>
+            <div v-if="$route.fullPath === '/threatment-product'" class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 mt-5">
+                <span class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl rounded-2xl py-2">
+                    Mulus
+                </span>
+            </div>
 		</section>
 </template>
 
@@ -39,3 +60,50 @@ const props = defineProps<{
     src: string;
 }>()
 </script>
+
+<style scoped>
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-30px) translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) translateY(-50%);
+  }
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(30px) translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) translateY(-50%);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.animate-fade-in-left {
+  animation: fade-in-left 0.8s ease-out forwards;
+}
+
+.animate-fade-in-right {
+  animation: fade-in-right 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+</style>
