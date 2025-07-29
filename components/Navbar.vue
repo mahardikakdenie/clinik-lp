@@ -91,7 +91,7 @@
 					v-show="mobileMenuOpen"
 					class="md:hidden bg-white text-[#1abaa6] rounded-lg shadow-lg mt-2 overflow-hidden">
 					<div class="px-4 py-2 space-y-2">
-						<a
+						<!-- <a
 							href="#"
 							class="block nav-link-mobile py-3 border-b border-gray-100"
 							@click="mobileMenuOpen = false">
@@ -114,7 +114,42 @@
 							class="block nav-link-mobile py-3"
 							@click="mobileMenuOpen = false">
 							Kontak
-						</a>
+						</a> -->
+						<nuxt-link
+							to="/"
+							:class="{
+								'border-b border-gray-100': $route.fullPath === '/',
+							}"
+							class="block nav-link-mobile text-slate-500 py-3 border-b border-gray-100">
+							HOME
+						</nuxt-link>
+						<nuxt-link
+							to="/aboutus"
+							:class="{
+								'border-b border-gray-100':
+									$route.fullPath === '/aboutus',
+							}"
+							class="block nav-link-mobile text-slate-500 py-3 border-b border-gray-100">
+							Tentang Kami
+						</nuxt-link>
+						<nuxt-link
+							to="/threatment-product"
+							:class="{
+								'border-b border-gray-100':
+									$route.fullPath === '/threatment-product',
+							}"
+							class="block nav-link-mobile text-slate-500 py-3 border-b border-gray-100">
+							Treatment & Produk
+						</nuxt-link>
+						<nuxt-link
+							to="/contact"
+							:class="{
+								'border-b border-gray-100':
+									$route.fullPath === '/contact',
+							}"
+							class="block nav-link-mobile text-slate-500 py-3 border-b border-gray-100">
+							Kontak
+						</nuxt-link>
 					</div>
 				</div>
 			</transition>
