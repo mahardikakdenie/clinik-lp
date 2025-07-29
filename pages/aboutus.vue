@@ -38,7 +38,7 @@
 		<div class="relative"></div>
 
 		<!-- Pemisah Dekoratif -->
-		<Directive />
+		 <Directive v-if="$route" />
 
 		<!-- Section Tentang Kami -->
 		<section
@@ -105,7 +105,7 @@
 			</div>
 		</section>
 
-		<Directive />
+		 <Directive v-if="$route" />
 
 		<section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
 			<div class="mx-auto text-center relative">

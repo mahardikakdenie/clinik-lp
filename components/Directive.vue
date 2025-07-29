@@ -5,11 +5,11 @@
 			<!-- Daun Kiri -->
 			<div class="flex space-x-2 sm:space-x-4">
 				<img
-					src="/daun.png"
+					src="/public/daun.png"
 					alt="Daun"
 					class="w-12 sm:w-16 md:w-20 h-auto object-contain" />
 				<img
-					src="/daun.png"
+					src="/public/daun.png"
 					alt="Daun Terbalik"
 					class="w-8 sm:w-12 md:w-14 h-auto object-contain scale-x-[-1]" />
 			</div>
@@ -43,11 +43,11 @@
 			<!-- Daun Kanan -->
 			<div class="flex space-x-2 sm:space-x-4">
 				<img
-					src="/daun.png"
+					src="/public/daun.png"
 					alt="Daun"
 					class="w-12 sm:w-16 md:w-20 h-auto object-contain" />
 				<img
-					src="/daun.png"
+					src="/public/daun.png"
 					alt="Daun Terbalik"
 					class="w-8 sm:w-12 md:w-14 h-auto object-contain scale-x-[-1]" />
 			</div>
