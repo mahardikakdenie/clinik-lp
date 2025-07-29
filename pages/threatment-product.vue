@@ -106,7 +106,32 @@
 					</div>
 				</div>
 			</div>
-            <Directive v-if="$route" />
+		</section>
+		<Directive v-if="$route" />
+
+		<section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                    <div
+                        v-for="(item, index) in 6"
+                        :key="index"
+                        class="group rounded-2xl overflow-hidden transition-all duration-300 transform hover:-translate-y-2">
+                        <!-- Badge -->
+                        <div
+                            class="bg-[#1abaa6] text-white font-semibold px-4 py-2 rounded-t-xl text-center">
+                            {{ ['Treatment', 'Skincare', 'Makeup', 'Sliming', 'Under Eye', 'Breast'][index] }}
+                        </div>
+    
+                        <!-- Gambar -->
+                        <div class="overflow-hidden h-72 w-full mt-4">
+                            <img
+                                :src="`product${index + 1}.png`"
+                                alt="Treatment"
+                                class="w-full h-full object-contain rounded-4xl group-hover:scale-105 transition-transform duration-500" />
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</section>
 	</div>
 </template>
