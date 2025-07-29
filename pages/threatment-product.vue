@@ -145,11 +145,11 @@
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Facial Wash
                                 </span>
                             </div>
-                            <div class="text-justify">
+                            <div class="">
                                 <ul class="space-y-4 text-white">
                                     <li class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
@@ -171,11 +171,11 @@
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto"></div>
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-2 py-2 rounded-2xl">
                                     Moisturizer
                                 </span>
                             </div>
-                            <div class="text-justify">
+                            <div class="">
                                 <ul class="space-y-4 text-white">
                                     <li class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
@@ -196,7 +196,7 @@
                                     Sunscreen
                                 </span>
                             </div>
-                            <div class="text-justify">
+                            <div class="">
                                 <ul class="space-y-4 text-white">
                                     <li class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
@@ -228,7 +228,7 @@
                                     Cream
                                 </span>
                             </div>
-                            <div class="text-justify">
+                            <div class="">
                                 <ul class="space-y-4 text-white">
                                     <li v-for="text in ['dr. F BB Day Cream SPF40', 'dr. F BB Day Cream SPF40', 'dr. F Whitening Night Cream']"
                                         class="flex items-start gap-3">
@@ -250,7 +250,7 @@
                                     Toner
                                 </span>
                             </div>
-                            <div class="text-justify">
+                            <div class="">
                                 <ul class="space-y-4 text-white">
                                     <li v-for="text in toners" class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
@@ -269,7 +269,7 @@
                                     Serum
                                 </span>
                             </div>
-                            <div class="text-justify">
+                            <div class="">
                                 <ul class="space-y-4 text-white">
                                     <li v-for="text in serums" class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
@@ -290,7 +290,7 @@
                                     Lainnya
                                 </span>
                             </div>
-                            <div class="text-justify">
+                            <div class="">
                                 <ul class="space-y-4 text-white">
                                     <li v-for="text in others" class="flex items-start text-center gap-3">
                                         <!-- Kotak sebagai bullet -->
