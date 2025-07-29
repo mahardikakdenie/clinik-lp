@@ -32,6 +32,21 @@
 				</div>
 			</div>
 
+			<!-- Teks Overlay -->
+			<div
+                v-if="$route.fullPath === '/contact'"
+				class="relative z-10 flex items-center px-6 sm:px-8 md:px-12 lg:px-20 h-full">
+				<div class="max-w-xl sm:max-w-2xl w-full">
+					<h1
+						class="text-white text-sm sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight sm:mb-6 animate-fade-in-up my-4">
+						<span
+							class="text-[#1abaa6] bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold">
+							Hubungi Kami
+						</span>
+					</h1>
+				</div>
+			</div>
+
             <div v-if="$route.fullPath === '/threatment-product'" class="absolute z-10 flex items-center justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 sm:left-96">
                 <span class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl rounded-2xl py-2">
                     Alami

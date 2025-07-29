@@ -12,7 +12,7 @@
 
                 <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2">
                     <!-- Judul dengan Card Putih -->
-                    <div class="flex justify-start mb-6 w-full mt-2 sm:mt-0">
+                    <div class="flex sm:justify-start justify-center mt-5 mb-6 w-full sm:mt-0">
                         <h1
                             class="text-lg sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
                             Glow Up Treatment
@@ -78,7 +78,7 @@
 
                 <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2">
                     <!-- Judul dengan Card Putih -->
-                    <div class="flex justify-start mb-6 w-full mt-2 sm:mt-0">
+                    <div class="flex sm:justify-start justify-center mb-6 w-full mt-5 sm:mt-0 ">
                         <h1
                             class="text-lg sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
                             Skin Booster Treatment
@@ -145,7 +145,7 @@
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] px-20 py-2 rounded-2xl">
+                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Facial Wash
                                 </span>
                             </div>
@@ -171,7 +171,7 @@
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto"></div>
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] px-20 py-2 rounded-2xl">
+                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Moisturizer
                                 </span>
                             </div>
@@ -192,7 +192,7 @@
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] px-20 py-2 rounded-2xl">
+                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Sunscreen
                                 </span>
                             </div>
@@ -224,7 +224,7 @@
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto"></div>
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] px-20 py-2 rounded-2xl">
+                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Cream
                                 </span>
                             </div>
@@ -246,7 +246,7 @@
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] px-20 py-2 rounded-2xl">
+                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Toner
                                 </span>
                             </div>
@@ -265,7 +265,7 @@
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto" />
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] px-20 py-2 rounded-2xl">
+                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Serum
                                 </span>
                             </div>
@@ -286,7 +286,7 @@
                     <div class=" flex justify-center">
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] px-20 py-2 rounded-2xl">
+                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Lainnya
                                 </span>
                             </div>
@@ -306,6 +306,32 @@
                 </div>
             </div>
         </section>
+        <Directive v-if="$route" />
+        <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
+            <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
+                <div class="w-full">
+                    <img src="/cushion.png"
+                        class="w-full h-[629px] sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
+                        alt="" />
+                </div>
+
+                <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2">
+                    <!-- Judul dengan Card Putih -->
+                    <div class="flex sm:justify-start justify-center mb-6 w-full mt-5 sm:mt-0 ">
+                        <h1
+                            class="text-lg sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
+                            BB Cushion
+                        </h1>
+                    </div>
+                    <div class="flex justify-center mb-12 max-w-5xl">
+                        <span
+                            class="text-sm sm:text-lg text-[#1abaa6] px-8 py-4 rounded-3xl transform transition hover:scale-105 duration-300">
+                           {{ desc }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
@@ -317,4 +343,7 @@ const serums = ref(["dr. F Soothing Serum",
 const others = ref(["dr. F Soothing Serum",
     "dr. F Glow Up Serum",
     "dr. F Eye Serum"])
+    // bb-cushion.json{
+  const desc = ref("Pengen tampilan kulit sempurna tanpa ribet? Kenalan yuk sama Maida BB Cushion! Ini bukan cuma alas bedak biasa, lho. Dengan formula 5-in-1 yang inovatif, BB Cushion ini jago banget menutup noda hitam dan ketidaksempurnaan lain di wajah. Plus, kulitmu bakal tetap lembab sepanjang hari, dengan hasil akhir yang super natural dan glowing. Yang paling penting, kulitmu juga terindungi dari bahaya sinar UVA dan UVB! Praktis, cantik, dan terlindungi dalam satu langkah mudah.");
+
 </script>
