@@ -1,39 +1,7 @@
 <template>
 	<div class="bg-white">
 		<!-- Section Hero: Tentang Kami -->
-		<section
-			class="relative h-64 sm:h-96 md:h-[500px] lg:h-[800px] overflow-hidden">
-			<!-- Background Image -->
-			<div class="absolute inset-0">
-				<img
-					src="/aboutus.png"
-					alt="Tentang Kami"
-					class="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105"
-					loading="eager" />
-			</div>
-			<svg
-				width="100%"
-				height="100%"
-				id="svg"
-				viewBox="0 0 1440 590"
-				xmlns="http://www.w3.org/2000/svg"
-				class="transition duration-300 ease-in-out delay-15 absolute0">
-				<path
-					d="M 0,600 L 0,150 C 122.92857142857142,177.07142857142856 245.85714285714283,204.14285714285714 360,196 C 474.14285714285717,187.85714285714286 579.4999999999999,144.5 683,133 C 786.5000000000001,121.50000000000001 888.1428571428571,141.85714285714286 1014,150 C 1139.857142857143,158.14285714285714 1289.9285714285716,154.07142857142856 1440,150 L 1440,600 L 0,600 Z"
-					stroke="none"
-					stroke-width="0"
-					fill="#7bdcb5"
-					fill-opacity="0.53"
-					class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
-				<path
-					d="M 0,600 L 0,350 C 159.42857142857144,308.92857142857144 318.8571428571429,267.85714285714283 425,281 C 531.1428571428571,294.14285714285717 584.0000000000001,361.50000000000006 696,385 C 807.9999999999999,408.49999999999994 979.1428571428571,388.14285714285717 1113,375 C 1246.857142857143,361.85714285714283 1343.4285714285716,355.92857142857144 1440,350 L 1440,600 L 0,600 Z"
-					stroke="none"
-					stroke-width="0"
-					fill="#7bdcb5"
-					fill-opacity="1"
-					class="transition-all duration-300 ease-in-out delay-150 path-1"></path>
-			</svg>
-		</section>
+		 <Banner src="/aboutus.png" />
 
 		<div class="relative"></div>
 
