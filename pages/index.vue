@@ -57,10 +57,10 @@
 		</div>
 
 		<!-- Section Nilai-Nilai -->
-		<section class="py-16 px-6 lg:px-0">
+		<section class="py-16 px-6 lg:px-0 bg-[url('/flowers.png')]">
 			<div class="max-w-4xl mx-auto text-center">
 				<div
-					class="bg-white rounded-2xl shadow-xl p-8 md:p-10 border border-gray-100 hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.01]">
+					class="bg-white rounded-2xl p-8 md:p-10 transition-all duration-300 transform hover:scale-[1.01]">
 					<p
 						class="text-[#1abaa6] text-lg md:text-xl leading-relaxed font-medium animate-fade-in">
 						Maida Skin Clinic percaya kalau setiap orang punya

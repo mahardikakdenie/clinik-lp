@@ -13,19 +13,20 @@
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex space-x-8">
-          <a
-            href="#"
+          <nuxt-link
+            to="/"
             :class="{ 'text-yellow-100': $route.fullPath === '/' }"
             class="nav-link font-medium transition-all duration-300 hover:text-yellow-100"
           >
             HOME
-          </a>
-          <a
-            href="#"
+          </nuxt-link>
+          <nuxt-link
+            to="/aboutus"
+            :class="{ 'text-yellow-100': $route.fullPath === '/aboutus' }"
             class="nav-link font-medium transition-all duration-300 hover:text-yellow-100"
           >
             Tentang Kami
-          </a>
+          </nuxt-link>
           <a
             href="#"
             class="nav-link font-medium transition-all duration-300 hover:text-yellow-100"
