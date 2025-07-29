@@ -81,7 +81,7 @@
 		</section>
 
 		<!-- Section Layanan Kami -->
-		<section class="py-16 px-6 lg:px-0">
+		<section class="py-16 px-6 lg:px-0 bg-[url('/flowers.png')]">
 			<div class="max-w-6xl mx-auto">
 				<!-- Judul -->
 				<div class="text-center mb-12">
