@@ -38,58 +38,7 @@
 		<div class="relative"></div>
 
 		<!-- Pemisah Dekoratif -->
-		<div
-			class="flex flex-wrap justify-center items-center gap-6 py-4 max-w-4xl mx-auto px-4">
-			<!-- Daun Kiri -->
-			<div class="flex space-x-2 sm:space-x-4">
-				<img
-					src="/daun.png"
-					alt="Daun"
-					class="w-12 sm:w-16 md:w-20 h-auto object-contain" />
-				<img
-					src="/daun.png"
-					alt="Daun Terbalik"
-					class="w-8 sm:w-12 md:w-14 h-auto object-contain scale-x-[-1]" />
-			</div>
-
-			<!-- Ikon Tengah -->
-			<div
-				class="flex items-center space-x-3 sm:space-x-4 text-[#1abaa6]">
-				<!-- Tetesan -->
-				<svg
-					class="w-5 sm:w-6 h-5 sm:h-6 animate-pulse"
-					fill="currentColor"
-					viewBox="0 0 24 24">
-					<circle cx="12" cy="12" r="8" opacity="0.3" />
-					<circle cx="12" cy="12" r="4" />
-				</svg>
-
-				<!-- Garis Gradient -->
-				<div
-					class="w-16 sm:w-20 h-0.5 bg-gradient-to-r from-[#1abaa6] to-transparent"></div>
-
-				<!-- Ikon Daun -->
-				<svg
-					class="w-5 sm:w-6 h-5 sm:h-6 animate-pulse"
-					fill="currentColor"
-					viewBox="0 0 24 24">
-					<path
-						d="M7 22c-1.1 0-2-.9-2-2v-7c0-1.1.9-2 2-2 1.1 0 2 .9 2 2v7c0 1.1-.9 2-2 2zm10-10c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2s2 .9 2 2v6c0 1.1-.9 2-2 2zm-5-5c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1z" />
-				</svg>
-			</div>
-
-			<!-- Daun Kanan -->
-			<div class="flex space-x-2 sm:space-x-4">
-				<img
-					src="/daun.png"
-					alt="Daun"
-					class="w-12 sm:w-16 md:w-20 h-auto object-contain" />
-				<img
-					src="/daun.png"
-					alt="Daun Terbalik"
-					class="w-8 sm:w-12 md:w-14 h-auto object-contain scale-x-[-1]" />
-			</div>
-		</div>
+		<Directive />
 
 		<!-- Section Tentang Kami -->
 		<section
@@ -104,7 +53,8 @@
 				</div>
 
 				<!-- Garis Pemisah Dekoratif -->
-				<div class="sm:flex hidden flex-col sm:flex-row sm:justify-center mb-12">
+				<div
+					class="sm:flex hidden flex-col sm:flex-row sm:justify-center mb-12">
 					<div
 						class="w-32 h-1 bg-gradient-to-r from-white to-transparent rounded-full"></div>
 				</div>
@@ -151,6 +101,94 @@
 				<div class="flex justify-center mt-16">
 					<div
 						class="w-24 h-1 bg-gradient-to-r from-transparent to-white rounded-full"></div>
+				</div>
+			</div>
+		</section>
+
+		<Directive />
+
+		<section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
+			<div class="mx-auto text-center relative">
+				<div class="flex justify-center mb-12">
+					<h1
+						class="text-4xl sm:text-5xl font-bold bg-white text-[#1abaa6] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
+						Nilai Nilai
+					</h1>
+				</div>
+				<!-- Garis Pemisah Dekoratif -->
+				<div
+					class="sm:flex hidden flex-col sm:flex-row sm:justify-center mb-12">
+					<div
+						class="w-32 h-1 bg-gradient-to-r from-white to-transparent rounded-full"></div>
+				</div>
+
+				<div class="max-w-4xl mx-auto">
+					<hr class="border-[#1abaa6] border-2 my-4" />
+					<div class="grid grid-cols-2">
+						<div class="my-auto">
+							<span
+								class="bg-[#1abaa6] font-bold text-2xl text-white px-20 py-2 rounded-2xl">
+								Visi
+							</span>
+						</div>
+						<div class="text-justify">
+							<span class="text-[#1abaa6] font-medium text-md">
+								Menjadi Klinik kecantikan yang
+								inovatif,berkualitas, dan terpercaya dengan
+								mengedepankan pelayanan prima dan profesional
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="max-w-4xl mx-auto">
+					<hr class="border-[#1abaa6] border-2 my-4" />
+					<div class="grid grid-cols-2">
+						<div class="my-auto">
+							<span
+								class="bg-[#1abaa6] font-bold text-2xl text-white px-20 py-2 rounded-2xl">
+								Misi
+							</span>
+						</div>
+						<div class="text-justify">
+							<ul class="space-y-4 text-[#1abaa6]">
+								<li class="flex items-start gap-3">
+									<!-- Kotak sebagai bullet -->
+									<div
+										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
+									<span
+										class="font-medium text-md leading-relaxed">
+										Mengutamakan kepercayaan dan kepuasan pengunjung dengan pelayanan prima yang berintegrasi dan terpercaya oleh seluruh tim yang berkompeten di bidangnya
+									</span>
+								</li>
+
+								<li class="flex items-start gap-3">
+									<div
+										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
+									<span
+										class="font-medium text-md leading-relaxed">
+										Meningkatkan kualitas SDM sesuai dengan kompetensinya
+									</span>
+								</li>
+
+								<li class="flex items-start gap-3">
+									<div
+										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
+									<span
+										class="font-medium text-md leading-relaxed">
+										Memberikan pelayanan sepenuh hati
+									</span>
+								</li>
+								<li class="flex items-start gap-3">
+									<div
+										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
+									<span
+										class="font-medium text-md leading-relaxed">
+										Mengikuti perkembangan di dunia estetika dalam perawatan maupun teknologi
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
