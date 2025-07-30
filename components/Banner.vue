@@ -21,22 +21,22 @@
 				<h1
 					class="text-white text-sm sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight sm:mb-6 animate-fade-in-up my-4 gap-6">
 					<span
-						class="text-[#1abaa6] bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold my-2"
+						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold my-2"
 						>Perawatan</span
 					>
 					<br class="" />
 					<span
-						class="text-[#1abaa6] bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold">
+						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold">
 						Cantik Alami
 					</span>
 					<br class="my-2" />
 					<span
-						class="text-[#1abaa6] bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold">
+						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold">
 						Bebas
 					</span>
 					<br class="my-2" />
 					<span
-						class="text-[#1abaa6] bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold"
+						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold"
 						>Ketergantungan</span
 					>
 				</h1>

@@ -16,20 +16,22 @@
 	font-display: swap;
 }
 
-/* * {
-	
-} */
+* {
+	font-family: 'tt-chocolates', sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
 
 header, h1, h2,h3 {
 	/* font-family: "Plus Jakarta Sans", sans-serif; */
-	font-family: 'tt-master', sans-serif;
+	font-family: 'tt-master', sans-serif !important;
 	font-optical-sizing: auto;
 	font-style: normal;
 }
 
 .text-master {
 	/* font-family: "Plus Jakarta Sans", sans-serif; */
-	font-family: 'tt-master', sans-serif;
+	font-family: 'tt-master', sans-serif !important;
 	font-optical-sizing: auto;
 	font-style: normal;
 }
