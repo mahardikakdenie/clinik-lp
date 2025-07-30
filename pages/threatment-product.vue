@@ -13,10 +13,10 @@
                 <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2">
                     <!-- Judul dengan Card Putih -->
                     <div class="flex sm:justify-start justify-center mt-5 mb-6 w-full sm:mt-0">
-                        <h1
+                        <span
                             class="text-lg sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
                             Glow Up Treatment
-                        </h1>
+                        </span>
                     </div>
                     <div class="flex justify-center mb-12 max-w-5xl">
                         <span
@@ -39,10 +39,10 @@
                 <div class="ml-2 flex flex-col justify-center sm:items-end items-center col-span-2">
                     <!-- Judul dengan Card Putih -->
                     <div class="flex justify-center mb-6 sm:max-w-2xl">
-                        <h1
+                        <span
                             class="text-xl sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
                             Flex Treatment
-                        </h1>
+                        </span>
                     </div>
                     <div class="flex sm:justify-end justify-center mb-12 max-w-5xl">
                         <span
@@ -79,10 +79,10 @@
                 <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2">
                     <!-- Judul dengan Card Putih -->
                     <div class="flex sm:justify-start justify-center mb-6 w-full mt-5 sm:mt-0 ">
-                        <h1
+                        <span
                             class="text-lg sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
                             Skin Booster Treatment
-                        </h1>
+                        </span>
                     </div>
                     <div class="flex justify-center mb-12 max-w-5xl">
                         <span
