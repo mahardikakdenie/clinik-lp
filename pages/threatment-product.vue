@@ -111,9 +111,9 @@
                         <div class="bg-[#1abaa6] text-white font-semibold px-4 py-2 rounded-t-xl text-center">
                             {{
                                 [
-                                    'Treatment',
-                                    'Skincare',
-                                    'Makeup',
+                                    'Acne & Scar',
+                                    'Hair',
+                                    'Face Contour',
                                     'Sliming',
                                     'Under Eye',
                                     'Breast',
