@@ -12,7 +12,7 @@
 
                 <div class="grid grid-cols-2 mt-5 gap-4">
                     <div class="flex flex-col items-center justify-center">
-                        <span class="bg-[#1abaa6] text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
+                        <span class="bg-[#1abaa6] text-master text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
                             Whatsapp
                         </span>
 
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center items-center flex-col">
-                        <span class="bg-[#1abaa6] text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
+                        <span class="bg-[#1abaa6] text-master text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
                             Shopee
                         </span>
                          <div class="flex items-center">
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center items-center flex-col mx-3">
-                        <span class="bg-[#1abaa6] text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
+                        <span class="bg-[#1abaa6] text-master text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
                             Instagram
                         </span>
                          <div class="flex items-center">
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center items-center flex-col">
-                        <span class="bg-[#1abaa6] text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
+                        <span class="bg-[#1abaa6] text-master text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
                             Tokopedia
                         </span>
                          <div class="flex items-center">

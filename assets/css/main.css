@@ -1,9 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
-* {
-    /* font-family: "Plus Jakarta Sans", sans-serif; */
-    font-family: "Fredoka", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+@font-face {
+	font-family: 'tt-master';
+	src: url('/tt-masters-demo.mastersdemoblack.otf') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap; /* Agar teks tetap muncul saat font loading */
+}
+
+@font-face {
+	font-family: 'tt-chocolates';
+	src: url('/tt_chocolates/TT Chocolates Trial Regular.otf') format('woff2');
+	font-style: normal;
+	font-display: swap;
+}
+
+/* * {
+	
+} */
+
+header, h1, h2,h3 {
+	/* font-family: "Plus Jakarta Sans", sans-serif; */
+	font-family: 'tt-master', sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+.text-master {
+	/* font-family: "Plus Jakarta Sans", sans-serif; */
+	font-family: 'tt-master', sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
 }
