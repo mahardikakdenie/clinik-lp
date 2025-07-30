@@ -6,7 +6,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
                 <div class="w-full">
                     <img src="/glowing-1.png"
-                        class="w-full h-[629px] sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
+                        class="w-full object-cover sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
                         alt="" />
                 </div>
 
@@ -62,7 +62,7 @@
                 </div>
                 <div class="w-full">
                     <img src="/dark-spot.png"
-                        class="h-[629px] sm:rounded-bl-[100px] border-4 border-r-0 border-[#1abaa6] rounded-2xl sm:rounded-tl-[100px]"
+                        class="object-cover sm:rounded-bl-[100px] border-4 border-r-0 border-[#1abaa6] rounded-2xl sm:rounded-tl-[100px]"
                         alt="" />
                 </div>
             </div>
@@ -72,7 +72,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
                 <div class="w-full">
                     <img src="/jenis-jenis.png"
-                        class="w-full h-[629px] sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
+                        class="w-full object-cover sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
                         alt="" />
                 </div>
 
@@ -311,7 +311,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
                 <div class="w-full">
                     <img src="/cushion.png"
-                        class="w-full h-[629px] sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
+                        class="w-full object-cover sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
                         alt="" />
                 </div>
 
