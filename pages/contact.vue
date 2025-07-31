@@ -5,9 +5,9 @@
         <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
             <div class="max-w-5xl mx-auto">
                 <div class="flex justify-center">
-                    <span class="text-2xl font-bold text-[#1abaa6]">
+                    <h1 class="text-2xl font-bold text-[#1abaa6]">
                         Kontak Kami
-                    </span>
+                    </h1>
                 </div>
 
                 <div class="grid grid-cols-2 mt-5 gap-4">
