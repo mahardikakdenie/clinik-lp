@@ -10,11 +10,11 @@
                         alt="" />
                 </div>
 
-                <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2">
+                <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2 sm:px-10 px-0">
                     <!-- Judul dengan Card Putih -->
                     <div class="flex sm:justify-start justify-center mt-5 mb-6 w-full sm:mt-0">
                         <span
-                            class="text-lg sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
+                            class="text-lg sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300 ml-2">
                             Glow Up Treatment
                         </span>
                     </div>
@@ -38,7 +38,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
                 <div class="ml-2 flex flex-col justify-center sm:items-end items-center col-span-2">
                     <!-- Judul dengan Card Putih -->
-                    <div class="flex justify-center mb-6 sm:max-w-2xl">
+                    <div class="flex justify-center mb-6 sm:max-w-2xl sm:px-10 px-0">
                         <span
                             class="text-xl sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
                             Flex Treatment
@@ -78,13 +78,13 @@
 
                 <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2">
                     <!-- Judul dengan Card Putih -->
-                    <div class="flex sm:justify-start justify-center mb-6 w-full mt-5 sm:mt-0 ">
+                    <div class="flex sm:justify-start justify-center mb-6 w-full mt-5 sm:mt-0 sm:ml-7 ml-0">
                         <span
-                            class="text-lg sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
+                            class="text-lg sm:text-2xl font-bold text-white bg-[#74cac4] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300 ">
                             Skin Booster Treatment
                         </span>
                     </div>
-                    <div class="flex justify-center mb-12 max-w-5xl">
+                    <div class="flex justify-center mb-12 max-w-5xl px-6">
                         <span
                             class="text-sm sm:text-lg text-[#1abaa6] px-8 py-4 rounded-3xl transform transition hover:scale-105 duration-300">
                             Pengen kulit kamu lembap maksimal, kenyal, dan
