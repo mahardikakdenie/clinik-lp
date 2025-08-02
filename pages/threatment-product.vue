@@ -154,14 +154,14 @@
                                     <li class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-md leading-relaxed">
+                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
                                             dr.F Facial Wash NTO (Normal To Oily)
                                         </span>
                                     </li>
 
                                     <li class="flex items-start gap-3">
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-md leading-relaxed">
+                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
                                             dr.F Facial Wash NTD (Normal To Dry)
                                         </span>
                                     </li>
@@ -169,9 +169,9 @@
                             </div>
                         </div>
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto"></div>
-                        <div class="my-auto col-span-5">
+                        <div class="my-auto col-span-5 h-full">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-2 py-2 rounded-2xl">
+                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Moisturizer
                                 </span>
                             </div>
@@ -179,10 +179,17 @@
                                 <ul class="space-y-4 text-white">
                                     <li class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
-                                        <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-md leading-relaxed">
+                                        <div class="w-3 h-3 bg-white mt-1 flex-shrink-0"></div>
+                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
                                             dr.F Skin Moisturizer
                                         </span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <!-- Kotak sebagai bullet -->
+                                        <!-- <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div> -->
+                                        <!-- <span class="font-medium text-md leading-relaxed">
+                                            dr.F Skin Moisturizer
+                                        </span> -->
                                     </li>
                                 </ul>
                             </div>
@@ -222,9 +229,9 @@
                             </div>
                         </div>
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto"></div>
-                        <div class="my-auto col-span-5">
+                        <div class="my-auto col-span-5 h-full">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Cream
                                 </span>
                             </div>
@@ -234,7 +241,7 @@
                                         class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-md leading-relaxed">
+                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
                                             {{ text }}
                                         </span>
                                     </li>
@@ -246,7 +253,7 @@
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Toner
                                 </span>
                             </div>
@@ -255,7 +262,7 @@
                                     <li v-for="text in toners" class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-md leading-relaxed">
+                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
                                             {{ text }}
                                         </span>
                                     </li>
@@ -263,9 +270,9 @@
                             </div>
                         </div>
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto" />
-                        <div class="my-auto col-span-5">
+                        <div class="my-auto col-span-5 h-full">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Serum
                                 </span>
                             </div>
@@ -274,7 +281,7 @@
                                     <li v-for="text in serums" class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-md leading-relaxed">
+                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
                                             {{ text }}
                                         </span>
                                     </li>
@@ -286,7 +293,7 @@
                     <div class=" flex justify-center">
                         <div class="my-auto col-span-5">
                             <div class="mb-5">
-                                <span class="bg-white font-bold text-2xl text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Lainnya
                                 </span>
                             </div>
@@ -295,7 +302,7 @@
                                     <li v-for="text in others" class="flex items-start text-center gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-md leading-relaxed text-center">
+                                        <span class="font-medium sm:text-md text-xs leading-relaxed text-center">
                                             {{ text }}
                                         </span>
                                     </li>
