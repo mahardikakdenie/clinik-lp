@@ -100,7 +100,7 @@
 		</div>
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
-			class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 sm:right-96 mt-5">
+			class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 sm:right-96">
 			<img src="/aman-row.png" class="h-30 w-30 hidden md:block" alt="" />
 			<span
 				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl rounded-2xl py-2">
