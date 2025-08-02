@@ -6,9 +6,9 @@
 				<!-- Logo -->
 				<div class="flex items-center space-x-2">
 					<img
-						src="/logo.png"
+						src="/logo-clinic.jpg"
 						alt="Logo"
-						class="rounded-2xl shadow-md w-20 h-8 object-cover transition-transform duration-300 hover:scale-105" />
+						class="rounded-2xl shadow-md w-30 h-8 object-cover transition-transform duration-300 hover:scale-105" />
 				</div>
 
 				<!-- Desktop Menu -->
