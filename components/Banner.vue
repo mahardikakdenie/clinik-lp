@@ -46,7 +46,7 @@
 		<!-- Teks Overlay -->
 		<div
 			v-if="$route.fullPath === '/contact'"
-			class="relative z-10 flex items-center px-6 sm:px-8 md:px-12 lg:px-20 h-full left-60 sm:left-60">
+			class="relative z-10 flex items-center px-6 sm:px-8 md:px-12 lg:px-20 h-full left-0 sm:left-60">
 			<div class="max-w-xl sm:max-w-2xl w-full flex">
 				<h1
 					class="text-white text-sm sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight sm:mb-6 animate-fade-in-up my-4">
