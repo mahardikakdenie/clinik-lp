@@ -14,7 +14,7 @@
 
         <!-- Alamat -->
         <address class="text-sm md:text-base">
-          <p>Jl. Subuang No.60, Antapani Tengah, Kec. Antapani, Kota Bandung, Jawa Barat 40229</p>
+          <p>Jl. Subang No.60, Antapani Tengah, Kec. Antapani, Kota Bandung, Jawa Barat 40229</p>
         </address>
       </div>
     </div>
