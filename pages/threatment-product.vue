@@ -208,20 +208,20 @@
                                     <li class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-md leading-relaxed">
+                                        <span class="font-medium text-xs sm:text-md leading-relaxed">
                                             dr.F Acne Sunscreen
                                         </span>
                                     </li>
 
                                     <li class="flex items-start gap-3">
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-md leading-relaxed">
+                                        <span class="font-medium text-xs sm:text-md leading-relaxed">
                                             dr.F 88 Day Cream/Sunscreen
                                         </span>
                                     </li>
                                     <li class="flex items-start gap-3">
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-md leading-relaxed">
+                                        <span class="font-medium text-xs sm:text-md leading-relaxed">
                                             dr.F 88 Sunscreen White SPF 50
                                         </span>
                                     </li>
