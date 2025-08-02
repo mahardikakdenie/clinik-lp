@@ -2,17 +2,17 @@
     <div class="bg-white">
         <Banner src="/banner4.png" />
         <Directive v-if="$route" />
-        <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
+        <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')] h-full">
             <div class="max-w-5xl mx-auto">
                 <div class="flex justify-center">
-                    <h1 class="text-2xl font-bold text-[#1abaa6]">
+                    <h1 class="text-3xl font-bold text-[#1abaa6]">
                         Kontak Kami
                     </h1>
                 </div>
 
                 <div class="grid grid-cols-2 mt-5 gap-4">
                     <div class="flex flex-col items-center justify-center">
-                        <a class="bg-[#1abaa6] text-master text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
+                        <a class="bg-[#1abaa6] text-master text-md sm:text-md rounded-2xl sm:px-20 px-5 py-3 text-white">
                             Whatsapp
                         </a>
 
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center items-center flex-col">
-                        <span class="bg-[#1abaa6] text-master text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
+                        <span class="bg-[#1abaa6] text-master text-md sm:text-md rounded-2xl sm:px-20 px-5 py-3 text-white">
                             Shopee
                         </span>
                          <div class="flex items-center">
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center items-center flex-col mx-3">
-                        <span class="bg-[#1abaa6] text-master text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
+                        <span class="bg-[#1abaa6] text-master text-md sm:text-md rounded-2xl sm:px-20 px-5 py-3 text-white">
                             Instagram
                         </span>
                          <div class="flex items-center">
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center items-center flex-col">
-                        <span class="bg-[#1abaa6] text-master text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
+                        <span class="bg-[#1abaa6] text-master text-md sm:text-md rounded-2xl sm:px-20 px-5 py-3 text-white">
                             Tokopedia
                         </span>
                          <div class="flex items-center">

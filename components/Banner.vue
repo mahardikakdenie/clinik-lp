@@ -47,7 +47,7 @@
 		<div
 			v-if="$route.fullPath === '/contact'"
 			class="relative z-10 flex items-center px-6 sm:px-8 md:px-12 lg:px-20 h-full">
-			<div class="max-w-xl sm:max-w-2xl w-full">
+			<div class="max-w-xl sm:max-w-2xl w-full flex">
 				<h1
 					class="text-white text-sm sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight sm:mb-6 animate-fade-in-up my-4">
 					<span
@@ -55,28 +55,44 @@
 						Hubungi Kami
 					</span>
 				</h1>
+				<img
+					src="/hubungi-row.png"
+					class="h-50 w-50 hidden sm:block"
+					alt="" />
 			</div>
 		</div>
 
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
-			class="absolute z-10 flex items-center justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 sm:left-96">
+			class="absolute z-10 flex items-center justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 sm:left-72">
 			<span
 				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl rounded-2xl py-2">
 				Alami
 			</span>
+			<img
+				src="/alami-row.png"
+				class="h-20 w-20 hidden sm:block"
+				alt="" />
 		</div>
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
-			class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 sm:left-96 mt-5">
+			class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 sm:left-72 mt-5">
 			<span
 				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl rounded-2xl py-2">
 				Mulus
 			</span>
+			<img
+				src="/mulus-row.png"
+				class="h-20 w-20 hidden sm:block"
+				alt="" />
 		</div>
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
-			class="absolute z-10 flex items-center justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 sm:right-96">
+			class="absolute z-10 flex items-center justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 sm:right-72">
+			<img
+				src="/cerah-row.png"
+				class="h-20 w-20 hidden sm:block"
+				alt="" />
 			<span
 				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl rounded-2xl py-2">
 				Cerah
@@ -84,7 +100,8 @@
 		</div>
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
-			class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 sm:right-96 mt-5">
+			class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 sm:right-72 mt-5">
+			<img src="/aman-row.png" class="h-20 w-20 hidden sm:block" alt="" />
 			<span
 				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl rounded-2xl py-2">
 				Aman

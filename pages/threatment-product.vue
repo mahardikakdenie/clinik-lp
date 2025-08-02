@@ -315,7 +315,7 @@
                         alt="" />
                 </div>
 
-                <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2">
+                <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2 sm:px-10 px-0">
                     <!-- Judul dengan Card Putih -->
                     <div class="flex sm:justify-start justify-center mb-6 w-full mt-5 sm:mt-0 ">
                         <span
