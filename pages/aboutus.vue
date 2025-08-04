@@ -173,7 +173,7 @@
 // Animasi akan dihandle oleh CSS
 </script>
 
-<style scoped>
+<style>
 /* Animasi Masuk */
 @keyframes fade-in-up {
 	from {
