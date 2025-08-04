@@ -50,7 +50,7 @@
 						class="group rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
 						<!-- Badge -->
 						<div
-							class="bg-[#1abaa6] text-white font-semibold px-4 py-2 rounded-t-xl text-center">
+							class="bg-[#1abaa6] sm:text-2xl text-lg text-white font-semibold px-4 py-2 rounded-t-xl text-center">
 							{{ ['Treatment', 'Skincare', 'Makeup'][index] }}
 						</div>
 

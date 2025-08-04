@@ -57,7 +57,7 @@
 				</h1>
 				<img
 					src="/hubungi-row.png"
-					class="h-50 w-50 hidden sm:block"
+					class="h-50 w-50 hidden md:block animate-fade-in-up"
 					alt="" />
 			</div>
 		</div>
@@ -66,24 +66,24 @@
 			v-if="$route.fullPath === '/threatment-product'"
 			class="absolute z-10 flex items-center justify-start px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 md:left-70 sm:left-96 mt-5">
 			<span
-				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2">
+				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2 animate-fade-in-up">
 				Alami
 			</span>
 			<img
 				src="/alami-row.png"
-				class="h-40 w-40 hidden md:block"
+				class="h-40 w-40 hidden md:block animate-fade-in-up"
 				alt="" />
 		</div>
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
 			class="absolute z-10 flex items-end justify-start px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 md:left-70 sm:left-96 mt-5">
 			<span
-				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2">
+				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2 animate-fade-in-up">
 				Mulus
 			</span>
 			<img
 				src="/mulus-row.png"
-				class="h-30 w-30 hidden md:block"
+				class="h-30 w-30 hidden md:block animate-fade-in-up"
 				alt="" />
 		</div>
 		<div
@@ -91,19 +91,19 @@
 			class="absolute z-10 flex items-center justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 md:right-70 sm:right-96 mt-5">
 			<img
 				src="/cerah-row.png"
-				class="h-30 w-30 hidden md:block"
+				class="h-30 w-30 hidden md:block animate-fade-in-up"
 				alt="" />
 			<span
-				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2">
+				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2 animate-fade-in-up">
 				Cerah
 			</span>
 		</div>
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
 			class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 md:right-70 sm:right-96 mt-5">
-			<img src="/aman-row.png" class="h-30 w-30 hidden md:block" alt="" />
+			<img src="/aman-row.png" class="h-30 w-30 hidden md:block animate-fade-in-up" alt="" />
 			<span
-				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2">
+				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2 animate-fade-in-up">
 				Aman
 			</span>	
 		</div>
