@@ -33,7 +33,7 @@
 						class="ml-2 flex flex-col justify-center items-center col-span-2">
 						<!-- Judul dengan Card Putih -->
 						<div
-							class="flex justify-center sm:justify-start w-full mb-6 px-10">
+							class="flex justify-center sm:justify-start w-full mb-6 px-10 sm:px-20">
 							<h1
 								class="text-md sm:text-4xl font-bold bg-white text-[#1abaa6] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
 								Sejarah
