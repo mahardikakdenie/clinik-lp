@@ -46,7 +46,7 @@
 		<!-- Teks Overlay -->
 		<div
 			v-if="$route.fullPath === '/contact'"
-			class="relative z-10 flex items-center px-6 sm:px-8 md:px-12 lg:px-20 h-full left-0 sm:left-60">
+			class="relative z-10 flex items-center px-6 sm:px-8 md:px-12 lg:px-20 h-full left-0 md:left-10 sm:left-30">
 			<div class="max-w-xl sm:max-w-2xl w-full flex">
 				<h1
 					class="text-white text-sm sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight sm:mb-6 animate-fade-in-up my-4">
@@ -64,7 +64,7 @@
 
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
-			class="absolute z-10 flex items-center justify-start px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 sm:left-96 mt-5">
+			class="absolute z-10 flex items-center justify-start px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 md:left-70 sm:left-96 mt-5">
 			<span
 				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2">
 				Alami
@@ -76,7 +76,7 @@
 		</div>
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
-			class="absolute z-10 flex items-end justify-start px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 sm:left-96 mt-5">
+			class="absolute z-10 flex items-end justify-start px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 right-60 md:left-70 sm:left-96 mt-5">
 			<span
 				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2">
 				Mulus
@@ -88,7 +88,7 @@
 		</div>
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
-			class="absolute z-10 flex items-center justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 sm:right-96 mt-5">
+			class="absolute z-10 flex items-center justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 md:right-70 sm:right-96 mt-5">
 			<img
 				src="/cerah-row.png"
 				class="h-30 w-30 hidden md:block"
@@ -100,7 +100,7 @@
 		</div>
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
-			class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 sm:right-96 mt-5">
+			class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 md:right-70 sm:right-96 mt-5">
 			<img src="/aman-row.png" class="h-30 w-30 hidden md:block" alt="" />
 			<span
 				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2">
