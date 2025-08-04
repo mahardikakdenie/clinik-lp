@@ -18,7 +18,7 @@
 
                         <div class="flex items-center sm:mr-16 mr-8">
                             <img src="/icon-whatsapp.png" class="sm:w-20 sm:h-20 w-10 h-10" alt="">
-                            <a class="text-[#1abaa6] text-sm hover:underline" href="https://wa.me/6282211776167" target="_blank">
+                            <a class="text-[#1abaa6] text-sm sm:text-lg hover:underline" href="https://wa.me/6282211776167" target="_blank">
                                 0822-1177-6167
                             </a>
                         </div>
@@ -29,7 +29,7 @@
                         </span>
                          <div class="flex items-center">
                             <img src="/icon-shopee.png" class="sm:w-20 sm:h-20 w-10 h-10" alt="">
-                            <a class="text-[#1abaa6] text-sm hover:underline" href="https://shopee.co.id/drf.skincare" target="_blank">
+                            <a class="text-[#1abaa6] text-sm sm:text-lg hover:underline" href="https://shopee.co.id/drf.skincare" target="_blank">
                                 @DrF Skincare
                             </a>
                         </div>
@@ -40,7 +40,7 @@
                         </span>
                          <div class="flex items-center">
                             <img src="/icon-instagram.png" class="sm:w-20 sm:h-20 w-10 h-10" alt="">
-                            <a class="text-[#1abaa6] text-sm hover:underline" href="https://www.instagram.com/maidaskinclinic.bandung/" target="_blank">
+                            <a class="text-[#1abaa6] text-sm sm:text-lg hover:underline" href="https://www.instagram.com/maidaskinclinic.bandung/" target="_blank">
                                 @maidaskinclinic.bandung
                             </a>
                         </div>
@@ -51,7 +51,7 @@
                         </span>
                          <div class="flex items-center">
                             <img src="/icon-tokopedia.png" class="sm:w-20 sm:h-20 w-10 h-10" alt="">
-                            <a class="text-[#1abaa6] text-sm hover:underline" href="https://www.tokopedia.com/drfskincare" target="_blank">
+                            <a class="text-[#1abaa6] text-sm sm:text-lg hover:underline" href="https://www.tokopedia.com/drfskincare" target="_blank">
                                 @DrF Skincare
                             </a>
                         </div>
