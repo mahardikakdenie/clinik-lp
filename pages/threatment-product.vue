@@ -4,9 +4,9 @@
         <Directive v-if="$route" />
         <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
-                <div class="w-full">
+                <div class="w-full flex justify-center sm:justify-start">
                     <img src="/glowing-1.png"
-                        class="w-full h-full object-cover sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
+                        class="h-70 sm:h-full object-cover sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
                         alt="" />
                 </div>
 
@@ -46,7 +46,7 @@
                     </div>
                     <div class="flex sm:justify-end justify-center mb-12 max-w-5xl">
                         <span
-                            class="text-sm sm:text-lg text-[#1abaa6] px-8 py-4 rounded-3xl transform transition hover:scale-105 duration-300 sm:text-end text-center">
+                            class="text-sm sm:text-lg text-[#1abaa6] sm:px-14 px-0 py-4 rounded-3xl transform transition hover:scale-105 duration-300 sm:text-end text-center">
                             Kulitmu suka berubah ubah ? Maida Flex Treatment
                             Jawabannya! Perawatan ini beneran flexible, didesain
                             khusus buat kondisi kulitmu yang berbeda-beda tiap
@@ -60,9 +60,9 @@
                         </span>
                     </div>
                 </div>
-                <div class="w-full">
+                <div class="w-full sm:justify-start flex justify-center">
                     <img src="/dark-spot.png"
-                        class="object-cover h-full sm:rounded-bl-[100px] border-4 border-r-0 border-[#1abaa6] rounded-2xl sm:rounded-tl-[100px]"
+                        class="object-cover h-70 sm:h-full sm:rounded-bl-[100px] border-4 border-r-0 border-[#1abaa6] rounded-2xl sm:rounded-tl-[100px]"
                         alt="" />
                 </div>
             </div>
@@ -70,9 +70,9 @@
         <Directive v-if="$route" />
         <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
-                <div class="w-full">
+                <div class="w-full flex justify-center sm:justify-start">
                     <img src="/jenis-jenis.png"
-                        class="w-full h-full object-cover sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
+                        class="h-70 sm:h-full object-cover sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
                         alt="" />
                 </div>
 
@@ -316,9 +316,9 @@
         <Directive v-if="$route" />
         <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
-                <div class="w-full">
+                <div class="w-full justify-center sm:justify-start flex">
                     <img src="/cushion.png"
-                        class="w-full object-cover h-full sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
+                        class="h-70 sm:h-full object-cover  sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
                         alt="" />
                 </div>
 

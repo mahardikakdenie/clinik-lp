@@ -5,26 +5,7 @@
 		<Banner src="/banner.png" />
 
 		<!-- Pemisah Dekoratif -->
-		<div class="flex justify-center my-12">
-			<div class="flex items-center space-x-4 text-[#1abaa6]">
-				<svg
-					class="w-6 h-6 animate-pulse"
-					fill="currentColor"
-					viewBox="0 0 24 24">
-					<circle cx="12" cy="12" r="8" opacity="0.3" />
-					<circle cx="12" cy="12" r="4" />
-				</svg>
-				<div
-					class="w-20 h-0.5 bg-gradient-to-r from-[#1abaa6] to-transparent"></div>
-				<svg
-					class="w-6 h-6 animate-pulse"
-					fill="currentColor"
-					viewBox="0 0 24 24">
-					<path
-						d="M7 22c-1.1 0-2-.9-2-2v-7c0-1.1.9-2 2-2 1.1 0 2 .9 2 2v7c0 1.1-.9 2-2 2zm10-10c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2s2 .9 2 2v6c0 1.1-.9 2-2 2zm-5-5c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1z" />
-				</svg>
-			</div>
-		</div>
+		<Directive />
 
 		<!-- Section Nilai-Nilai -->
 		<section class="py-16 px-6 lg:px-0 bg-[url('/flowers.png')]">

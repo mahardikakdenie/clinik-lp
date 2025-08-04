@@ -1,13 +1,12 @@
 <template>
 	<div class="bg-white">
 		<!-- Section Hero: Tentang Kami -->
-		 <Banner src="/aboutus.png" />
-
+		<Banner src="/aboutus.png" />
 
 		<div class="relative"></div>
 
 		<!-- Pemisah Dekoratif -->
-		 <Directive v-if="$route" />
+		<Directive v-if="$route" />
 
 		<!-- Section Tentang Kami -->
 		<section
@@ -33,7 +32,8 @@
 					<div
 						class="ml-2 flex flex-col justify-center items-center col-span-2">
 						<!-- Judul dengan Card Putih -->
-						<div class="flex justify-center sm:justify-start w-full mb-6 px-10">
+						<div
+							class="flex justify-center sm:justify-start w-full mb-6 px-10">
 							<h1
 								class="text-md sm:text-4xl font-bold bg-white text-[#1abaa6] px-8 py-4 rounded-3xl shadow-xl transform transition hover:scale-105 duration-300">
 								Sejarah
@@ -41,7 +41,7 @@
 						</div>
 						<div class="flex justify-center mb-12">
 							<span
-								class="text-sm sm:text-lg text-white px-8 py-4 rounded-3xl transform transition hover:scale-105 duration-300">
+								class="text-sm sm:text-lg text-white px-8 sm:px-20 text-left py-4 rounded-3xl transform transition hover:scale-105 duration-300">
 								Maida Skin Clinic didirikan tahun 2019
 								akhir,sekitar bulan September - Oktober.Awal
 								cuma berdirinya Maida Skin Clinic adalah
@@ -74,7 +74,7 @@
 			</div>
 		</section>
 
-		 <Directive v-if="$route" />
+		<Directive v-if="$route" />
 
 		<section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
 			<div class="mx-auto text-center relative">
@@ -126,7 +126,10 @@
 										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
 									<span
 										class="font-medium text-md leading-relaxed">
-										Mengutamakan kepercayaan dan kepuasan pengunjung dengan pelayanan prima yang berintegrasi dan terpercaya oleh seluruh tim yang berkompeten di bidangnya
+										Mengutamakan kepercayaan dan kepuasan
+										pengunjung dengan pelayanan prima yang
+										berintegrasi dan terpercaya oleh seluruh
+										tim yang berkompeten di bidangnya
 									</span>
 								</li>
 
@@ -135,7 +138,8 @@
 										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
 									<span
 										class="font-medium text-md leading-relaxed">
-										Meningkatkan kualitas SDM sesuai dengan kompetensinya
+										Meningkatkan kualitas SDM sesuai dengan
+										kompetensinya
 									</span>
 								</li>
 
@@ -152,7 +156,8 @@
 										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
 									<span
 										class="font-medium text-md leading-relaxed">
-										Mengikuti perkembangan di dunia estetika dalam perawatan maupun teknologi
+										Mengikuti perkembangan di dunia estetika
+										dalam perawatan maupun teknologi
 									</span>
 								</li>
 							</ul>
