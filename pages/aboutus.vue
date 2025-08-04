@@ -101,7 +101,7 @@
 							</span>
 						</div>
 						<div class="text-justify">
-							<span class="text-[#1abaa6] font-medium text-md">
+							<span class="text-[#1abaa6] font-medium text-sm sm:text-lg">
 								Menjadi Klinik kecantikan yang
 								inovatif,berkualitas, dan terpercaya dengan
 								mengedepankan pelayanan prima dan profesional
@@ -125,7 +125,7 @@
 									<div
 										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
 									<span
-										class="font-medium text-md leading-relaxed">
+										class="font-medium text-sm sm:text-lg leading-relaxed">
 										Mengutamakan kepercayaan dan kepuasan
 										pengunjung dengan pelayanan prima yang
 										berintegrasi dan terpercaya oleh seluruh
@@ -137,7 +137,7 @@
 									<div
 										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
 									<span
-										class="font-medium text-md leading-relaxed">
+										class="font-medium text-sm sm:text-lg leading-relaxed">
 										Meningkatkan kualitas SDM sesuai dengan
 										kompetensinya
 									</span>
@@ -147,7 +147,7 @@
 									<div
 										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
 									<span
-										class="font-medium text-md leading-relaxed">
+										class="font-medium text-sm sm:text-lg leading-relaxed">
 										Memberikan pelayanan sepenuh hati
 									</span>
 								</li>
@@ -155,7 +155,7 @@
 									<div
 										class="w-3 h-3 bg-[#1abaa6] mt-2 flex-shrink-0"></div>
 									<span
-										class="font-medium text-md leading-relaxed">
+										class="font-medium text-sm sm:text-lg leading-relaxed">
 										Mengikuti perkembangan di dunia estetika
 										dalam perawatan maupun teknologi
 									</span>

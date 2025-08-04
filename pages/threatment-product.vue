@@ -154,14 +154,14 @@
                                     <li class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
+                                        <span class="font-medium text-sm sm:text-lg leading-relaxed">
                                             dr.F Facial Wash NTO (Normal To Oily)
                                         </span>
                                     </li>
 
                                     <li class="flex items-start gap-3">
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
+                                        <span class="font-medium text-sm sm:text-lg leading-relaxed">
                                             dr.F Facial Wash NTD (Normal To Dry)
                                         </span>
                                     </li>
@@ -180,7 +180,7 @@
                                     <li class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-1 flex-shrink-0"></div>
-                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
+                                        <span class="font-medium text-sm sm:text-lg leading-relaxed">
                                             dr.F Skin Moisturizer
                                         </span>
                                     </li>
@@ -208,20 +208,20 @@
                                     <li class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-xs sm:text-md leading-relaxed">
+                                        <span class="font-medium text-sm sm:text-lg sm:text-md leading-relaxed">
                                             dr.F Acne Sunscreen
                                         </span>
                                     </li>
 
                                     <li class="flex items-start gap-3">
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-xs sm:text-md leading-relaxed">
+                                        <span class="font-medium text-sm sm:text-lg sm:text-md leading-relaxed">
                                             dr.F 88 Day Cream/Sunscreen
                                         </span>
                                     </li>
                                     <li class="flex items-start gap-3">
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-xs sm:text-md leading-relaxed">
+                                        <span class="font-medium text-sm sm:text-lg sm:text-md leading-relaxed">
                                             dr.F 88 Sunscreen White SPF 50
                                         </span>
                                     </li>
@@ -241,7 +241,7 @@
                                         class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
+                                        <span class="font-medium text-sm sm:text-lg leading-relaxed">
                                             {{ text }}
                                         </span>
                                     </li>
@@ -262,7 +262,7 @@
                                     <li v-for="text in toners" class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
+                                        <span class="font-medium text-sm sm:text-lg leading-relaxed">
                                             {{ text }}
                                         </span>
                                     </li>
@@ -281,7 +281,7 @@
                                     <li v-for="text in serums" class="flex items-start gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium sm:text-md text-xs leading-relaxed">
+                                        <span class="font-medium text-sm sm:text-lg leading-relaxed">
                                             {{ text }}
                                         </span>
                                     </li>
@@ -302,7 +302,7 @@
                                     <li v-for="text in others" class="flex items-start text-center gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium sm:text-md text-xs leading-relaxed text-center">
+                                        <span class="font-medium text-sm sm:text-lg leading-relaxed text-center">
                                             {{ text }}
                                         </span>
                                     </li>
@@ -322,7 +322,7 @@
                         alt="" />
                 </div>
 
-                <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2 sm:px-10 px-0">
+                <div class="sm:ml-2 flex flex-col justify-center items-start col-span-2 sm:px-10 md:px-3 px-0">
                     <!-- Judul dengan Card Putih -->
                     <div class="flex sm:justify-start justify-center mb-6 w-full mt-5 sm:mt-0 ">
                         <span

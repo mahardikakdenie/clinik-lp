@@ -16,7 +16,7 @@
                             Whatsapp
                         </a>
 
-                        <div class="flex items-center sm:mr-16 mr-8">
+                        <div class="flex items-center sm:mr-20 mr-8">
                             <img src="/icon-whatsapp.png" class="sm:w-20 sm:h-20 w-10 h-10" alt="">
                             <a class="text-[#1abaa6] text-sm sm:text-lg hover:underline" href="https://wa.me/6282211776167" target="_blank">
                                 0822-1177-6167

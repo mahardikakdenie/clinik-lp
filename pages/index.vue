@@ -37,7 +37,7 @@
 						class="text-3xl font-bold text-[#1abaa6] mb-4 animate-fade-in">
 						Layanan Kami
 					</h2>
-					<p class="text-[#1abaa6] max-w-xl mx-auto text-sm">
+					<p class="text-[#1abaa6] max-w-xl mx-auto text-sm sm:text-lg">
 						Temukan perawatan yang sesuai dengan kebutuhan kulitmu
 					</p>
 				</div>
@@ -64,7 +64,7 @@
 
 						<!-- Deskripsi (opsional) -->
 						<div class="p-5 bg-white">
-							<p class="text-[#1abaa6] text-sm mt-1">
+							<p class="text-[#1abaa6] text-sm sm:text-lg mt-1">
 								{{
 									[
 										'Treatment Maida Skin Clinic menawarkan solusi perawatan kulit personal dengan teknologi modern, dirancang untuk mengatasi masalah kulit dan mengembalikan keremajaanmu',
