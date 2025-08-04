@@ -5,7 +5,7 @@
         <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')] h-full">
             <div class="max-w-5xl mx-auto">
                 <div class="flex justify-center">
-                    <h1 class="text-4xl sm:text-5xl font-bold bg-white  whitespace-nowrap text-[#1abaa6] px-8 py-2 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300">
+                    <h1 class="text-4xl sm:text-5xl font-bold bg-white mb-6 whitespace-nowrap text-[#1abaa6] px-8 py-2 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300">
                         Kontak Kami
                     </h1>
                 </div>

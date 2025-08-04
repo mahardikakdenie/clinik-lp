@@ -133,7 +133,7 @@
         <Directive v-if="$route" />
         <section class="py-20 px-3 lg:px-0 bg-[#1abaa6] bg-[url('/flowers.png')]">
             <div class="flex justify-center">
-                <h2 class="text-4xl sm:text-5xl font-bold bg-white  whitespace-nowrap text-[#1abaa6] px-8 py-2 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300">Skincare</h2>
+                <h2 class="text-4xl sm:text-5xl font-bold bg-white  whitespace-nowrap text-[#1abaa6] px-8 py-2 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300 mb-6">Skincare</h2>
             </div>
             <div class="max-w-5xl mx-auto">
                 <div class="p-4 flex justify-center w-full">
