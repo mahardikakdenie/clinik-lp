@@ -61,7 +61,7 @@
 					<div class="w-full">
 						<img
 							src="/history.jpg"
-							class="w-full h-[629px] rounded-xl sm:rounded-l-full border-8 border-white"
+							class="w-full h-70 sm:h-full rounded-xl sm:rounded-l-full border-8 border-white"
 							alt="" />
 					</div>
 				</div>

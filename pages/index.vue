@@ -32,9 +32,9 @@
 		<section class="py-16 px-6 lg:px-0 bg-[url('/flowers.png')]">
 			<div class="max-w-6xl mx-auto">
 				<!-- Judul -->
-				<div class="text-center mb-12 flex flex-col items-center justify-center sm:px-0 px-5">
+				<div class="text-center mb-12 sm:mb-24 flex flex-col items-center justify-center sm:px-0 px-5">
 					<h2
-						class="text-4xl sm:text-5xl font-bold mb-6 bg-white w-72 sm:w-96 whitespace-nowrap text-[#1abaa6] px-8 pt-9 pb-3 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300">
+						class="text-4xl sm:text-5xl font-bold mb-12 bg-white w-72 sm:w-96 whitespace-nowrap text-[#1abaa6] px-8 pt-9 pb-3 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300">
 						Layanan Kami
 					</h2>
 					<p class="text-[#1abaa6] max-w-xl mx-auto text-sm sm:text-lg">
