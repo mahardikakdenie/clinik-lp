@@ -34,7 +34,7 @@
 				<!-- Judul -->
 				<div class="text-center mb-12">
 					<h2
-						class="text-3xl font-bold text-[#1abaa6] mb-4 animate-fade-in">
+						class="text-4xl sm:text-5xl font-bold text-[#1abaa6] mb-4 animate-fade-in">
 						Layanan Kami
 					</h2>
 					<p class="text-[#1abaa6] max-w-xl mx-auto text-sm sm:text-lg">

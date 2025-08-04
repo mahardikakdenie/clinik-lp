@@ -5,7 +5,7 @@
         <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')] h-full">
             <div class="max-w-5xl mx-auto">
                 <div class="flex justify-center">
-                    <h1 class="text-3xl font-bold text-[#1abaa6]">
+                    <h1 class="text-4xl sm:text-5xl font-bold text-[#1abaa6]">
                         Kontak Kami
                     </h1>
                 </div>
