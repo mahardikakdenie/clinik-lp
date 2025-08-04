@@ -25,10 +25,7 @@
 			</div>
 
 			<!-- Pemisah Bawah -->
-			<div class="flex justify-center mt-16">
-				<div
-					class="w-24 h-1 bg-gradient-to-r from-transparent to-[#1abaa6] rounded-full"></div>
-			</div>
+			<Directive />
 		</section>
 
 		<!-- Section Layanan Kami -->
