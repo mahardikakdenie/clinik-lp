@@ -37,7 +37,7 @@
 						class="text-4xl sm:text-5xl font-bold mb-12 bg-white w-72 sm:w-96 whitespace-nowrap text-[#1abaa6] px-8 pt-9 pb-3 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300">
 						Layanan Kami
 					</h2>
-					<p class="text-[#1abaa6] max-w-xl mx-auto text-sm sm:text-lg">
+					<p class="text-[#1abaa6] max-w-xl mx-auto text-lg md:text-xl">
 						Temukan perawatan yang sesuai dengan kebutuhan kulitmu
 					</p>
 				</div>
