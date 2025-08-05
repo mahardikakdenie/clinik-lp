@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center items-center flex-col">
-                        <span class="bg-[#1abaa6] text-master text-md sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white">
+                        <span class="bg-[#1abaa6] text-master text-md text-center sm:text-2xl rounded-2xl sm:px-20 px-5 py-3 text-white w-[285px]">
                             Shopee
                         </span>
                          <div class="flex items-center">
