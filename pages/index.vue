@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-white bg-[url('/flowers.png')]">
+	<div class="bg-white">
 
 		<!-- Section Tentang Kami -->
 		<Banner src="/banner.png" />
@@ -8,7 +8,7 @@
 		<Directive class="bg-white" />
 
 		<!-- Section Nilai-Nilai -->
-		<section class="py-20 px-3 lg:px-0 h-full">
+		<section class="py-20 px-3 lg:px-0 h-full bg-[url('/flowers.png')]">
 			<div class="max-w-4xl mx-auto text-center">
 				<div
 					class="rounded-2xl p-8 md:p-10 transition-all duration-300 transform hover:scale-[1.01]">
@@ -29,7 +29,7 @@
 		<!-- Pemisah Bawah -->
 		<Directive />
 		<!-- Section Layanan Kami -->
-		<section class="py-16 px-6 lg:px-0">
+		<section class="py-16 px-6 lg:px-0 bg-[url('/flowers.png')]">
 			<div class="max-w-6xl mx-auto">
 				<!-- Judul -->
 				<div class="text-center mb-12 sm:mb-24 flex flex-col items-center justify-center sm:px-0 px-5">
