@@ -176,15 +176,15 @@
                                 </span>
                             </div>
                             <div class="">
-                                <ul class="space-y-4 text-white">
-                                    <li class="flex items-start gap-3">
+                                <ul class="space-y-4 text-white flex">
+                                    <li class="flex gap-3">
                                         <!-- Kotak sebagai bullet -->
-                                        <div class="w-3 h-3 bg-white mt-1 flex-shrink-0"></div>
+                                        <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
                                         <span class="font-medium text-sm sm:text-lg leading-relaxed">
                                             dr.F Skin Moisturizer
                                         </span>
                                     </li>
-                                    <li class="flex items-start gap-3">
+                                    <li class="flex gap-3">
                                         <!-- Kotak sebagai bullet -->
                                         <!-- <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div> -->
                                         <!-- <span class="font-medium text-md leading-relaxed">
