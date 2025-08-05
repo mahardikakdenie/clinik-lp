@@ -100,7 +100,7 @@
 								Visi
 							</span>
 						</div>
-						<div class="text-justify">
+						<div class="text-left">
 							<span class="text-[#1abaa6] font-medium text-sm sm:text-lg">
 								Menjadi Klinik kecantikan yang
 								inovatif,berkualitas, dan terpercaya dengan
@@ -118,7 +118,7 @@
 								Misi
 							</span>
 						</div>
-						<div class="text-justify">
+						<div class="text-left">
 							<ul class="space-y-4 text-[#1abaa6]">
 								<li class="flex items-start gap-3">
 									<!-- Kotak sebagai bullet -->
