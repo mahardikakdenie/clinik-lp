@@ -46,18 +46,18 @@
 		<!-- Teks Overlay -->
 		<div
 			v-if="$route.fullPath === '/contact'"
-			class="relative z-10 flex items-center px-6 sm:px-8 md:px-12 lg:px-20 h-full left-0 md:left-10 sm:left-30">
+			class="relative z-10 flex items-center px-6 sm:px-8 md:px-12 lg:px-20 h-full left-0 sm:left-70">
 			<div class="max-w-xl sm:max-w-2xl w-full flex">
-				<h1
-					class="text-white text-sm sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight sm:mb-6 animate-fade-in-up my-4">
+				<div
+					class="text-white font-bold leading-tight sm:mb-6 animate-fade-in-up my-4">
 					<span
-						class="text-[#1abaa6] bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold">
+						class="text-[#1abaa6] sm:text-2xl text-xs bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold">
 						Hubungi Kami
 					</span>
-				</h1>
+				</div>
 				<img
 					src="/hubungi-row.png"
-					class="h-50 w-50 hidden md:block animate-fade-in-up"
+					class="h-40 w-40 hidden md:block animate-fade-in-up"
 					alt="" />
 			</div>
 		</div>
