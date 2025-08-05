@@ -14,7 +14,7 @@
 
         <!-- Alamat -->
         <address class="text-sm md:text-base">
-          <p>Jl. Subang No.60, Antapani Tengah, Kec. Antapani, Kota Bandung, Jawa Barat 40229</p>
+          <a class="hover:underline" href="https://www.google.com/maps/place/Jl.+Subang+No.60,+Antapani+Tengah,+Kec.+Antapani,+Kota+Bandung,+Jawa+Barat+40291/@-6.9156794,107.6518528,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e7ef836440e7:0x7a4c63d517a39c71!8m2!3d-6.9156847!4d107.6544277!16s%2Fg%2F11ghpvds6c?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Jl. Subang No.60, Antapani Tengah, Kec. Antapani, Kota Bandung, Jawa Barat 40229</a>
         </address>
       </div>
     </div>

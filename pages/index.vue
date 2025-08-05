@@ -24,10 +24,10 @@
 				</div>
 			</div>
 
-			<!-- Pemisah Bawah -->
-			<Directive />
 		</section>
-
+		
+		<!-- Pemisah Bawah -->
+		<Directive class="my-16" />
 		<!-- Section Layanan Kami -->
 		<section class="py-16 px-6 lg:px-0 bg-[url('/flowers.png')]">
 			<div class="max-w-6xl mx-auto">
