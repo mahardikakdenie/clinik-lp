@@ -1,25 +1,13 @@
 <template>
     <!-- Pemisah Dekoratif -->
 		<div
-			class="flex flex-wrap justify-center items-center gap-6 py-4 mx-auto px-4">
+			class="flex flex-wrap justify-center items-center gap-6 py-4 max-w-4xl mx-auto px-4">
 			<!-- Daun Kiri -->
 			<div class="flex space-x-2 sm:space-x-4">
 				<img
 					src="/public/daun.png"
 					alt="Daun"
 					class="w-12 sm:w-16 md:w-20 h-auto object-contain" />
-				<img
-					src="/public/daun.png"
-					alt="Daun Terbalik"
-					class="w-8 sm:w-12 md:w-14 h-auto object-contain scale-x-[-1]" />
-				<img
-					src="/public/daun.png"
-					alt="Daun"
-					class="w-12 sm:w-16 md:w-20 h-auto object-contain" />
-				<img
-					src="/public/daun.png"
-					alt="Daun Terbalik"
-					class="w-8 sm:w-12 md:w-14 h-auto object-contain scale-x-[-1]" />
 				<img
 					src="/public/daun.png"
 					alt="Daun Terbalik"
@@ -58,18 +46,6 @@
 					src="/public/daun.png"
 					alt="Daun"
 					class="w-12 sm:w-16 md:w-20 h-auto object-contain" />
-				<img
-					src="/public/daun.png"
-					alt="Daun Terbalik"
-					class="w-8 sm:w-12 md:w-14 h-auto object-contain scale-x-[-1]" />
-				<img
-					src="/public/daun.png"
-					alt="Daun"
-					class="w-12 sm:w-16 md:w-20 h-auto object-contain" />
-				<img
-					src="/public/daun.png"
-					alt="Daun Terbalik"
-					class="w-8 sm:w-12 md:w-14 h-auto object-contain scale-x-[-1]" />
 				<img
 					src="/public/daun.png"
 					alt="Daun Terbalik"
