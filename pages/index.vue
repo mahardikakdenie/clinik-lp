@@ -27,7 +27,7 @@
 		</section>
 		
 		<!-- Pemisah Bawah -->
-		<Directive class="my-16" />
+		<Directive />
 		<!-- Section Layanan Kami -->
 		<section class="py-16 px-6 lg:px-0 bg-[url('/flowers.png')]">
 			<div class="max-w-6xl mx-auto">
