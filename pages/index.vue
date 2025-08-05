@@ -1,5 +1,5 @@
 <template>
-	<div class=" bg-[url('/flowers.png')]">
+	<div class="bg-white bg-[url('/flowers.png')]">
 
 		<!-- Section Tentang Kami -->
 		<Banner src="/banner.png" />
@@ -8,10 +8,10 @@
 		<Directive />
 
 		<!-- Section Nilai-Nilai -->
-		<section class="py-20 px-3 lg:px-0  bg-[url('/flowers.png')] h-full">
+		<section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')] h-full">
 			<div class="max-w-4xl mx-auto text-center">
 				<div
-					class="rounded-2xl p-8 md:p-10 transition-all duration-300 transform hover:scale-[1.01]">
+					class="bg-white rounded-2xl p-8 md:p-10 transition-all duration-300 transform hover:scale-[1.01]">
 					<p
 						class="text-[#1abaa6] text-lg md:text-xl leading-relaxed font-medium animate-fade-in">
 						Maida Skin Clinic percaya kalau setiap orang punya
@@ -34,7 +34,7 @@
 				<!-- Judul -->
 				<div class="text-center mb-12 sm:mb-24 flex flex-col items-center justify-center sm:px-0 px-5">
 					<h2
-						class="text-4xl sm:text-5xl font-bold mb-12  w-72 sm:w-96 whitespace-nowrap text-[#1abaa6] px-8 pt-9 pb-3 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300">
+						class="text-4xl sm:text-5xl font-bold mb-12 bg-white w-72 sm:w-96 whitespace-nowrap text-[#1abaa6] px-8 pt-9 pb-3 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300">
 						Layanan Kami
 					</h2>
 					<p class="text-[#1abaa6] max-w-xl mx-auto text-lg md:text-xl">
@@ -63,7 +63,7 @@
 						</div>
 
 						<!-- Deskripsi (opsional) -->
-						<div class="p-5 ">
+						<div class="p-5 bg-white">
 							<p class="text-[#1abaa6] text-sm sm:text-lg mt-1 text-center">
 								{{
 									[
