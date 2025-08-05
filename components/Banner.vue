@@ -17,28 +17,25 @@
 		<div
 			v-if="$route.fullPath === '/'"
 			class="relative z-10 flex items-center px-6 sm:px-8 md:px-12 lg:px-20 h-full">
-			<div class="max-w-xl sm:max-w-2xl w-full">
+			<div class="">
 				<h1
-					class="text-white text-sm sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight sm:mb-6 animate-fade-in-up my-4 gap-6">
+					class="text-white text-sm sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight sm:mb-6 animate-fade-in-up mt-6 sm:mt-8 md:mt-10 lg:mt-12 mb-6 md:mb-10 lg:mb-14 <!-- Jarak bawah yang responsif -->">
 					<span
-						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold my-2"
-						>Perawatan</span
-					>
-					<br class="" />
+						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-4xl shadow-lg font-extrabold block my-1 sm:my-2 sm:w-78 w-24">
+						Perawatan
+					</span>
 					<span
-						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold">
+						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-4xl shadow-lg font-extrabold block my-1 sm:my-2 sm:w-90 w-28">
 						Cantik Alami
 					</span>
-					<br class="my-2" />
 					<span
-						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold">
+						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-4xl shadow-lg font-extrabold block my-1 sm:my-2 sm:w-50 w-14">
 						Bebas
 					</span>
-					<br class="my-2" />
 					<span
-						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-xl shadow-lg font-extrabold"
-						>Ketergantungan</span
-					>
+						class="text-[#1abaa6] text-master bg-white bg-opacity-95 px-2 py-0 sm:px-5 md:py-2 rounded-4xl shadow-lg font-extrabold block my-1 sm:my-2">
+						Ketergantungan
+					</span>
 				</h1>
 			</div>
 		</div>
@@ -101,11 +98,14 @@
 		<div
 			v-if="$route.fullPath === '/threatment-product'"
 			class="absolute z-10 flex items-end justify-end px-6 sm:px-8 md:px-12 lg:px-20 h-1/2 left-60 md:right-70 sm:right-96 mt-5">
-			<img src="/aman-row.png" class="h-30 w-30 hidden md:block animate-fade-in-up" alt="" />
+			<img
+				src="/aman-row.png"
+				class="h-30 w-30 hidden md:block animate-fade-in-up"
+				alt="" />
 			<span
 				class="shadow bg-white text-[#1abaa6] font-bold px-10 sm:text-2xl text-xs rounded-2xl py-2 animate-fade-in-up">
 				Aman
-			</span>	
+			</span>
 		</div>
 	</section>
 </template>
