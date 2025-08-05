@@ -5,13 +5,13 @@
 		<Banner src="/banner.png" />
 
 		<!-- Pemisah Dekoratif -->
-		<Directive class="bg-white" />
+		<Directive />
 
 		<!-- Section Nilai-Nilai -->
-		<section class="py-20 px-3 lg:px-0 h-full bg-[url('/flowers.png')]">
+		<section class="py-16 px-6 lg:px-0 bg-[url('/flowers.png')]">
 			<div class="max-w-4xl mx-auto text-center">
 				<div
-					class="rounded-2xl p-8 md:p-10 transition-all duration-300 transform hover:scale-[1.01]">
+					class="bg-white rounded-2xl p-8 md:p-10 transition-all duration-300 transform hover:scale-[1.01]">
 					<p
 						class="text-[#1abaa6] text-lg md:text-xl leading-relaxed font-medium animate-fade-in">
 						Maida Skin Clinic percaya kalau setiap orang punya
