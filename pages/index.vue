@@ -64,7 +64,7 @@
 
 						<!-- Deskripsi (opsional) -->
 						<div class="p-5 bg-white">
-							<p class="text-[#1abaa6] text-sm sm:text-lg mt-1">
+							<p class="text-[#1abaa6] text-sm sm:text-lg mt-1 text-center">
 								{{
 									[
 										'Treatment Maida Skin Clinic menawarkan solusi perawatan kulit personal dengan teknologi modern, dirancang untuk mengatasi masalah kulit dan mengembalikan keremajaanmu',
