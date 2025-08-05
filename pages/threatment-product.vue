@@ -5,7 +5,7 @@
         <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
                 <div class="w-full flex justify-center sm:justify-start">
-                    <img src="/glowing-1.png"
+                    <img src="/glow_up.png"
                         class="h-70 sm:h-full object-cover sm:rounded-br-[100px] border-4 border-l-0 border-[#1abaa6] rounded-2xl sm:rounded-tr-[100px]"
                         alt="" />
                 </div>
@@ -23,7 +23,7 @@
                             class="text-sm sm:text-lg text-[#1abaa6] px-8 py-4 rounded-3xl transform transition hover:scale-105 duration-300">
                             Signature Glow Up dan bahkan kulit kamu bersinar
                             cerah dari dalam.Perawatan ini dirancang khusus
-                            untuk menampilkan versi terbaik dari diri kamu
+                            untuk menampilkan versi terbaik dari diri kam
                             memberikan tampilan kulit yang sehat ,bercahaya, dan
                             penuh percaya diri.Ini bukan sekadar perawatan
                             wajah, ini adalah transformasi yang akan membuat
