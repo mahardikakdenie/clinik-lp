@@ -3,6 +3,14 @@
         <Banner src="\banner3.png" />
         <Directive v-if="$route" />
         <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
+            <!-- Judul -->
+            <div class="text-center mb-12 sm:mb-24 flex flex-col items-center justify-center sm:px-0 px-5">
+                <h2
+                    class="text-4xl sm:text-5xl font-bold mb-12 bg-white w-72 sm:w-96 whitespace-nowrap text-[#1abaa6] px-8 pt-9 pb-3 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300">
+                    Treatment
+                </h2>
+            </div>
+
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
                 <div class="w-full flex justify-center sm:justify-start">
                     <img src="/glow_up.png"
@@ -108,7 +116,8 @@
                     <div v-for="(item, index) in 6" :key="index"
                         class="group rounded-2xl overflow-hidden transition-all duration-300 transform hover:-translate-y-2">
                         <!-- Badge -->
-                        <div class="bg-[#1abaa6] sm:text-2xl text-lg text-white font-semibold px-4 py-2 rounded-t-xl text-center">
+                        <div
+                            class="bg-[#1abaa6] sm:text-2xl text-lg text-white font-semibold px-4 py-2 rounded-t-xl text-center">
                             {{
                                 [
                                     'Acne & Scar',
@@ -133,7 +142,9 @@
         <Directive v-if="$route" />
         <section class="py-20 px-3 lg:px-0 bg-[#1abaa6] bg-[url('/flowers.png')]">
             <div class="flex justify-center mb-12">
-                <h2 class="text-4xl sm:text-5xl font-bold bg-white  whitespace-nowrap text-[#1abaa6] px-8 py-2 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300 mb-6">Skincare</h2>
+                <h2
+                    class="text-4xl sm:text-5xl font-bold bg-white  whitespace-nowrap text-[#1abaa6] px-8 py-2 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300 mb-6">
+                    Skincare</h2>
             </div>
             <div class="max-w-5xl mx-auto">
                 <div class="p-4 flex justify-center w-full">
@@ -145,7 +156,8 @@
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
                             <div class="my-5 max-w-2xl">
-                                <span class="bg-white font-bold text-center whitespace-nowrap block max-w-md sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span
+                                    class="bg-white font-bold text-center whitespace-nowrap block max-w-md sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Facial Wash
                                 </span>
                             </div>
@@ -171,7 +183,8 @@
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto"></div>
                         <div class="my-auto col-span-5 h-full">
                             <div class="my-5 max-w-2xl">
-                                <span class="bg-white font-bold text-center whitespace-nowrap block max-w-md  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span
+                                    class="bg-white font-bold text-center whitespace-nowrap block max-w-md  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Moisturizer
                                 </span>
                             </div>
@@ -199,7 +212,8 @@
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
                             <div class="my-5 max-w-2xl">
-                                <span class="bg-white font-bold text-center whitespace-nowrap block  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span
+                                    class="bg-white font-bold text-center whitespace-nowrap block  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Sunscreen
                                 </span>
                             </div>
@@ -231,7 +245,8 @@
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto"></div>
                         <div class="my-auto col-span-5 h-full">
                             <div class="my-5 max-w-2xl">
-                                <span class="bg-white font-bold text-center whitespace-nowrap block max-w-md  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span
+                                    class="bg-white font-bold text-center whitespace-nowrap block max-w-md  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Cream
                                 </span>
                             </div>
@@ -253,7 +268,8 @@
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
                             <div class="my-5 max-w-2xl">
-                                <span class="bg-white font-bold text-center whitespace-nowrap block max-w-md  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span
+                                    class="bg-white font-bold text-center whitespace-nowrap block max-w-md  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Toner
                                 </span>
                             </div>
@@ -272,7 +288,8 @@
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto" />
                         <div class="my-auto col-span-5 h-full">
                             <div class="my-5 max-w-2xl">
-                                <span class="bg-white font-bold text-center whitespace-nowrap block max-w-md  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span
+                                    class="bg-white font-bold text-center whitespace-nowrap block max-w-md  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Serum
                                 </span>
                             </div>
@@ -293,7 +310,8 @@
                     <div class=" flex justify-center">
                         <div class="my-auto col-span-5">
                             <div class="my-5 max-w-2xl">
-                                <span class="bg-white font-bold text-center whitespace-nowrap block max-w-md w-full sm:w-96 sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                                <span
+                                    class="bg-white font-bold text-center whitespace-nowrap block max-w-md w-full sm:w-96 sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Lainnya
                                 </span>
                             </div>
@@ -333,7 +351,7 @@
                     <div class="flex justify-center mb-12 max-w-5xl">
                         <span
                             class="text-sm sm:text-lg text-[#1abaa6] px-8 py-4 rounded-3xl transform transition hover:scale-105 duration-300">
-                           {{ desc }}
+                            {{ desc }}
                         </span>
                     </div>
                 </div>
@@ -350,7 +368,7 @@ const serums = ref(["dr. F Soothing Serum",
 const others = ref(["dr. F Soothing Serum",
     "dr. F Glow Up Serum",
     "dr. F Eye Serum"])
-    // bb-cushion.json{
-  const desc = ref("Pengen tampilan kulit sempurna tanpa ribet? Kenalan yuk sama Maida BB Cushion! Ini bukan cuma alas bedak biasa, lho. Dengan formula 5-in-1 yang inovatif, BB Cushion ini jago banget menutup noda hitam dan ketidaksempurnaan lain di wajah. Plus, kulitmu bakal tetap lembab sepanjang hari, dengan hasil akhir yang super natural dan glowing. Yang paling penting, kulitmu juga terindungi dari bahaya sinar UVA dan UVB! Praktis, cantik, dan terlindungi dalam satu langkah mudah.");
+// bb-cushion.json{
+const desc = ref("Pengen tampilan kulit sempurna tanpa ribet? Kenalan yuk sama Maida BB Cushion! Ini bukan cuma alas bedak biasa, lho. Dengan formula 5-in-1 yang inovatif, BB Cushion ini jago banget menutup noda hitam dan ketidaksempurnaan lain di wajah. Plus, kulitmu bakal tetap lembab sepanjang hari, dengan hasil akhir yang super natural dan glowing. Yang paling penting, kulitmu juga terindungi dari bahaya sinar UVA dan UVB! Praktis, cantik, dan terlindungi dalam satu langkah mudah.");
 
 </script>
