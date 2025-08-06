@@ -144,8 +144,8 @@
                     <hr class="border-white border-2 my-4" />
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
-                            <div class="mb-5">
-                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                            <div class="my-5">
+                                <span class="bg-white font-bold sm:w-60 text-center whitespace-nowrap block w-full sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Facial Wash
                                 </span>
                             </div>
@@ -170,8 +170,8 @@
                         </div>
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto"></div>
                         <div class="my-auto col-span-5 h-full">
-                            <div class="mb-5">
-                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                            <div class="my-5">
+                                <span class="bg-white font-bold sm:w-60 text-center whitespace-nowrap block w-full  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Moisturizer
                                 </span>
                             </div>
@@ -198,8 +198,8 @@
                     <hr class="border-white border-2 my-4" />
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
-                            <div class="mb-5">
-                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                            <div class="my-5">
+                                <span class="bg-white font-bold sm:w-60 text-center whitespace-nowrap block w-full  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Sunscreen
                                 </span>
                             </div>
@@ -230,8 +230,8 @@
                         </div>
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto"></div>
                         <div class="my-auto col-span-5 h-full">
-                            <div class="mb-5">
-                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                            <div class="my-5">
+                                <span class="bg-white font-bold sm:w-60 text-center whitespace-nowrap block w-full  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Cream
                                 </span>
                             </div>
@@ -252,8 +252,8 @@
                     <hr class="border-white border-2 my-4" />
                     <div class="grid grid-cols-12">
                         <div class="my-auto col-span-5">
-                            <div class="mb-5">
-                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                            <div class="my-5">
+                                <span class="bg-white font-bold sm:w-60 text-center whitespace-nowrap block w-full  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Toner
                                 </span>
                             </div>
@@ -271,8 +271,8 @@
                         </div>
                         <div class="border-l-white border-l-4 flex justify-center col-span-2 mx-auto" />
                         <div class="my-auto col-span-5 h-full">
-                            <div class="mb-5">
-                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                            <div class="my-5">
+                                <span class="bg-white font-bold sm:w-60 text-center whitespace-nowrap block w-full  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Serum
                                 </span>
                             </div>
@@ -292,8 +292,8 @@
                     <hr class="border-white border-2 my-4" />
                     <div class=" flex justify-center">
                         <div class="my-auto col-span-5">
-                            <div class="mb-5">
-                                <span class="bg-white font-bold sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
+                            <div class="my-5">
+                                <span class="bg-white font-bold sm:w-60 text-center whitespace-nowrap block w-full  sm:text-2xl text-lg text-[#1abaa6] sm:px-20 px-5 py-2 rounded-2xl">
                                     Lainnya
                                 </span>
                             </div>
