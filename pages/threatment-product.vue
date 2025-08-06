@@ -297,12 +297,12 @@
                                     Lainnya
                                 </span>
                             </div>
-                            <div class="">
-                                <ul class="space-y-4 text-white">
-                                    <li v-for="text in others" class="flex items-start text-center gap-3">
+                            <div class="flex justify-center">
+                                <ul class="space-y-4 flex justify-center flex-col items-center text-white">
+                                    <li v-for="text in others" class="flex items-start text-start gap-3 w-full">
                                         <!-- Kotak sebagai bullet -->
                                         <div class="w-3 h-3 bg-white mt-2 flex-shrink-0"></div>
-                                        <span class="font-medium text-sm sm:text-lg leading-relaxed text-center">
+                                        <span class="font-medium text-sm sm:text-lg leading-relaxed text-left">
                                             {{ text }}
                                         </span>
                                     </li>
