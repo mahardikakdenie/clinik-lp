@@ -333,6 +333,12 @@
         </section>
         <Directive v-if="$route" />
         <section class="py-20 px-3 lg:px-0 bg-white bg-[url('/flowers.png')]">
+            <div class="text-center flex flex-col items-center justify-center sm:px-0 px-5">
+                <h2
+                    class="text-4xl sm:text-5xl font-bold mb-12 bg-white w-72 sm:w-96 whitespace-nowrap text-[#1abaa6] px-8 pt-9 pb-3 rounded-3xl shadow-md sm:shadow-xl transform transition hover:scale-105 duration-300">
+                    Makeup
+                </h2>
+            </div>
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
                 <div class="w-full justify-center sm:justify-start flex">
                     <img src="/cushion.png"
